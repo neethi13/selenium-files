@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="password" value="orange"/>
+  <parameter name="username" value="mango"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.app.testng.testng.AppTest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.app.testng.testng.AppTest -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
