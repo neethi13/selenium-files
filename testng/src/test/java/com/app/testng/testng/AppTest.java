@@ -1,7 +1,6 @@
 package com.app.testng.testng;
 
-import java.util.ArrayList;
-
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -11,7 +10,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.app.objects.pageobjs;
@@ -24,33 +22,50 @@ import com.codoid.products.fillo.Recordset;
  */
 public class AppTest extends BaseClass
 {
-	@Test(dataProvider="testdata")
-	public static void test1(String tcid,String firstname, String lastname, String phone, String email,String uname, String pword, String confirm) {
+	
+
+	@Test()
+	public static void test1() {
 		try {
 			PageFactory.initElements(driver, pageobjs.class);
-			
-			driver.get("http://demo.guru99.com/test/newtours/register.php");
+			Fillo fillo = new Fillo();
+			Connection connection = fillo.getConnection("src/test/resources/testdata/testData.xlsx");
+			String strQuery = "select * from demoaut";
+			Recordset recordset = connection.executeQuery(strQuery);
+			int count = recordset.getCount();
+			System.out.println("Total number of rows: " +count);
+			for(int i = 0; i < count; i++) {
+				recordset.moveNext();
+				Thread.sleep(500);
+				String tcid = recordset.getField("TC_ID");
+				String fname = recordset.getField("Firstname");
+				String lname = recordset.getField("Lastname");
+				String pno = recordset.getField("Phone");
+				String email = recordset.getField("Email");
+				String uname = recordset.getField("Username");
+				String pwd = recordset.getField("Password");
+				String cpwd = recordset.getField("Confirm");
+
+				driver.get("http://demo.guru99.com/test/newtours/register.php");
 
 				
-			
-				safeType(pageobjs.firstname, firstname);
+				pageobjs.firstname.sendKeys(fname);
+
 				safeClick(pageobjs.lastname);
-				
-				
-				pageobjs.lastname.sendKeys(lastname);
-				pageobjs.phonenumber.sendKeys(phone);
+				pageobjs.lastname.sendKeys(lname);
+				pageobjs.phonenumber.sendKeys(pno);
 				pageobjs.email.sendKeys(email);
 				pageobjs.address.sendKeys("test street");
 				pageobjs.city.sendKeys("Chennai");
 				pageobjs.state.sendKeys("TamilNadu");
 				pageobjs.country.sendKeys("INDIA");
 				pageobjs.userName.sendKeys(uname);
-				pageobjs.password.sendKeys(pword);
-				pageobjs.confirmPassword.sendKeys(confirm);
+				pageobjs.password.sendKeys(pwd);
+				pageobjs.confirmPassword.sendKeys(cpwd);
 				pageobjs.submitbtn.click();
 
-				
-				System.out.println("TC_ID:  "+tcid+"  Firstname: " +firstname);
+				//System.out.println("Iteration: " +i);
+				System.out.println("TC_ID:  "+tcid+"  Firstname: " +fname);
 				Thread.sleep(2000);
 
 				String actMsg = pageobjs.createduname.getText();
@@ -69,8 +84,10 @@ public class AppTest extends BaseClass
 					System.out.println("User creation failed!");
 				}
 
-				setData("demoaut", "CreatedUser", tcid, uname);
-		
+				String updateQuery = "Update demoaut Set CreatedUser='"+unamefin+"' where TC_ID='"+tcid+"'";
+				connection.executeUpdate(updateQuery);
+			}
+			
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -154,56 +171,6 @@ public class AppTest extends BaseClass
 			e.printStackTrace();
 		}
 	}
-	
-	@DataProvider(name="testdata")
-	public  Object[][] TestDataFeed(){
-		
-//		Object[] object = null;
-		Fillo fillo = new Fillo();
-		Connection connection;
-		
-		
-		try {
-		connection = fillo.getConnection("src/test/resources/testdata/testData.xlsx");
-		String strQuery = "select * from demoaut";
-		Recordset recordset = connection.executeQuery(strQuery);
-		int count = recordset.getCount();
-		System.out.println("Total number of rows: " +count);
-		ArrayList<String> recordlist = new ArrayList<>(); 
-		for (int i=0;i<count;i++)
-		{
-			recordset.moveNext();
-			Thread.sleep(500);
-			System.out.println("Iteration: " +i);
-			String tcid = recordset.getField("TC_ID");
-			String fname = recordset.getField("Firstname");
-			String lname = recordset.getField("Lastname");
-			String pno = recordset.getField("Phone");
-			String email = recordset.getField("Email");
-			String uname = recordset.getField("Username");
-			String pwd = recordset.getField("Password");
-			String cpwd = recordset.getField("Confirm");
-			
-			return new Object[][] 
-			    	{
-				{tcid,fname,lname,pno,email,uname,pwd,cpwd}
-			        };
-			}
-           
-     
-		
-	}
-		
-				
-		
-		
-		catch (Exception e) {
-			
-			e.printStackTrace();
-		}
-		return null;
-		
-		
-	}
-	
+
+
 }

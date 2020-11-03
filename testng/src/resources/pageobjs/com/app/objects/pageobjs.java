@@ -51,10 +51,4 @@ public class pageobjs {
 	@FindBy(how=How.XPATH, using="//a[.=' sign-in ']/following::b[1]")
 	public static WebElement createduname;
 		
-
-	
-public void clickSubmit() {
-	submitbtn.click();
-}
-
 }

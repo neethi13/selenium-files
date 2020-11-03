@@ -403,9 +403,9 @@ public class BaseClass {
 		String data = null;
 		try {
 			Fillo fillo = new Fillo();
-			Connection connection = fillo.getConnection("src/test/resources/testdata/testData.xlsx");
+			Connection connection = fillo.getConnection("src//test//resources//TestData//Testdata.xls");
 			String strQuery = "Select "+columnName+" from "+sheetName+" where TC_ID='"+testCaseID+"'";
-			System.out.println("Query for fetching records: "+strQuery);
+			logger.info("Query for fetching records: "+strQuery);
 			Recordset recordset = connection.executeQuery(strQuery);
 			recordset.moveFirst();
 			data = recordset.getField(columnName);
@@ -433,9 +433,9 @@ public class BaseClass {
 	public static void setData(String sheetName, String columnName, String testCaseID, String inputText) {
 		try {
 			Fillo fillo = new Fillo();
-			Connection connection = fillo.getConnection("src/test/resources/testdata/testData.xlsx");
+			Connection connection = fillo.getConnection("src//test//resources//TestData//Testdata.xls");
 			String strQuery = "Update "+sheetName+" Set "+columnName+"='"+inputText+"' where TC_ID='"+testCaseID+"'";
-			System.out.println("Update query: "+strQuery);
+			logger.info("Update query: "+strQuery);
 			connection.executeUpdate(strQuery);
 		}catch (FilloException fex) {
 			logger.info("Fillo exception occurred in update query!");
