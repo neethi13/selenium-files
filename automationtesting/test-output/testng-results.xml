@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77" started-at="2020-10-14T03:14:05Z" finished-at="2020-10-14T03:14:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77" started-at="2020-10-14T03:14:05Z" finished-at="2020-10-14T03:14:05Z">
+      <class name="com.sep.tesing.automationtesting.AppTest">
+        <test-method status="PASS" signature="befSuite()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="befSuite" is-config="true" duration-ms="1962" started-at="2020-10-14T08:44:03Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befSuite -->
+        <test-method status="PASS" signature="befTest()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="befTest" is-config="true" duration-ms="0" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="befClass()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="befClass" is-config="true" duration-ms="0" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befClass -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="test1" duration-ms="38" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="test2" duration-ms="16" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="aftMethod" is-config="true" duration-ms="0" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="aftTest()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="aftTest" is-config="true" duration-ms="0" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+        <test-method status="PASS" signature="aftClass()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="aftClass" is-config="true" duration-ms="0" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftClass -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="aftMethod" is-config="true" duration-ms="0" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="aftSuite()[pri:0, instance:com.sep.tesing.automationtesting.AppTest@35ef1869]" name="aftSuite" is-config="true" duration-ms="3" started-at="2020-10-14T08:44:05Z" finished-at="2020-10-14T08:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- com.sep.tesing.automationtesting.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

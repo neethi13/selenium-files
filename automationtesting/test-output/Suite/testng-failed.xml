@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.sep.tesing.automationtesting.AppTest">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.sep.tesing.automationtesting.AppTest -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
