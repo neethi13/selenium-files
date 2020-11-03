@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="199055" started-at="2020-10-12T10:16:57Z" finished-at="2020-10-12T10:20:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="199055" started-at="2020-10-12T10:16:57Z" finished-at="2020-10-12T10:20:16Z">
+      <class name="com.app.testng.testng.AppTest">
+        <test-method status="PASS" signature="befSuite()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befSuite" is-config="true" duration-ms="4621" started-at="2020-10-12T15:46:52Z" finished-at="2020-10-12T15:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befSuite -->
+        <test-method status="PASS" signature="befTest()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befTest" is-config="true" duration-ms="4" started-at="2020-10-12T15:46:57Z" finished-at="2020-10-12T15:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="befClass()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befClass" is-config="true" duration-ms="0" started-at="2020-10-12T15:46:57Z" finished-at="2020-10-12T15:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befClass -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:47:07Z" finished-at="2020-10-12T15:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="21442" started-at="2020-10-12T15:47:07Z" data-provider="testdata" finished-at="2020-10-12T15:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoTest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[983736678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DemoTest]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:47:28Z" finished-at="2020-10-12T15:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="11189" started-at="2020-10-12T15:47:28Z" data-provider="testdata" finished-at="2020-10-12T15:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[237327778]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bala]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:47:28Z" finished-at="2020-10-12T15:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:47:40Z" finished-at="2020-10-12T15:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="10250" started-at="2020-10-12T15:47:40Z" data-provider="testdata" finished-at="2020-10-12T15:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kalyan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[983736678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kalyan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:47:40Z" finished-at="2020-10-12T15:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:47:50Z" finished-at="2020-10-12T15:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="13033" started-at="2020-10-12T15:47:50Z" data-provider="testdata" finished-at="2020-10-12T15:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Divya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[237327778]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jink]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:47:50Z" finished-at="2020-10-12T15:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="8" started-at="2020-10-12T15:48:03Z" finished-at="2020-10-12T15:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:03Z" finished-at="2020-10-12T15:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="11145" started-at="2020-10-12T15:48:03Z" data-provider="testdata" finished-at="2020-10-12T15:48:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Praveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[983736678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Tinkles]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="21" started-at="2020-10-12T15:48:14Z" finished-at="2020-10-12T15:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:14Z" finished-at="2020-10-12T15:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="11075" started-at="2020-10-12T15:48:14Z" data-provider="testdata" finished-at="2020-10-12T15:48:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[237327778]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Balu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:25Z" finished-at="2020-10-12T15:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:25Z" finished-at="2020-10-12T15:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="9951" started-at="2020-10-12T15:48:25Z" data-provider="testdata" finished-at="2020-10-12T15:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kerala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[H]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[983736678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Dravid]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:35Z" finished-at="2020-10-12T15:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="9988" started-at="2020-10-12T15:48:35Z" data-provider="testdata" finished-at="2020-10-12T15:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[King]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[237327778]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:35Z" finished-at="2020-10-12T15:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="15" started-at="2020-10-12T15:48:45Z" finished-at="2020-10-12T15:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="11753" started-at="2020-10-12T15:48:45Z" data-provider="testdata" finished-at="2020-10-12T15:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guru]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[983736678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ranjith]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:45Z" finished-at="2020-10-12T15:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="17523" started-at="2020-10-12T15:48:57Z" data-provider="testdata" finished-at="2020-10-12T15:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Retro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[237327778]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Guna]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:57Z" finished-at="2020-10-12T15:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:48:57Z" finished-at="2020-10-12T15:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:15Z" finished-at="2020-10-12T15:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:15Z" finished-at="2020-10-12T15:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="11812" started-at="2020-10-12T15:49:15Z" data-provider="testdata" finished-at="2020-10-12T15:49:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Save]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[983736678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sekar]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="10661" started-at="2020-10-12T15:49:26Z" data-provider="testdata" finished-at="2020-10-12T15:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Control]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[983736678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwjhdshjd@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Rajan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:26Z" finished-at="2020-10-12T15:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:26Z" finished-at="2020-10-12T15:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:37Z" finished-at="2020-10-12T15:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="10264" started-at="2020-10-12T15:49:37Z" data-provider="testdata" finished-at="2020-10-12T15:49:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firetest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2387327887]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testbbk@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Velu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:37Z" finished-at="2020-10-12T15:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="11940" started-at="2020-10-12T15:49:47Z" data-provider="testdata" finished-at="2020-10-12T15:49:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Speed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9872738787]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testbbk@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Abinath]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:47Z" finished-at="2020-10-12T15:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:47Z" finished-at="2020-10-12T15:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:59Z" finished-at="2020-10-12T15:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="befMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="befMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:49:59Z" finished-at="2020-10-12T15:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMet -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="test1" duration-ms="11375" started-at="2020-10-12T15:49:59Z" data-provider="testdata" finished-at="2020-10-12T15:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thought]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[G]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[237837889]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testbbk@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Freak]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftClass()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftClass" is-config="true" duration-ms="16" started-at="2020-10-12T15:50:11Z" finished-at="2020-10-12T15:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftClass -->
+        <test-method status="PASS" signature="aftMet()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftMet" is-config="true" duration-ms="0" started-at="2020-10-12T15:50:11Z" finished-at="2020-10-12T15:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMet -->
+        <test-method status="PASS" signature="aftTest()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftTest" is-config="true" duration-ms="5003" started-at="2020-10-12T15:50:11Z" finished-at="2020-10-12T15:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+        <test-method status="PASS" signature="aftSuite()[pri:0, instance:com.app.testng.testng.AppTest@479d31f3]" name="aftSuite" is-config="true" duration-ms="0" started-at="2020-10-12T15:50:16Z" finished-at="2020-10-12T15:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- com.app.testng.testng.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
