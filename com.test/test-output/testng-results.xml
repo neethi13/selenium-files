@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4031" started-at="2020-10-14T06:44:35Z" finished-at="2020-10-14T06:44:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4031" started-at="2020-10-14T06:44:35Z" finished-at="2020-10-14T06:44:39Z">
+      <class name="seletest.com.test.Qone">
+        <test-method status="PASS" signature="befSuite()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="befSuite" is-config="true" duration-ms="109" started-at="2020-10-14T12:14:35Z" finished-at="2020-10-14T12:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befSuite -->
+        <test-method status="PASS" signature="befTest()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="befTest" is-config="true" duration-ms="0" started-at="2020-10-14T12:14:35Z" finished-at="2020-10-14T12:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="test1" duration-ms="4012" started-at="2020-10-14T12:14:35Z" finished-at="2020-10-14T12:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="befMethod" is-config="true" duration-ms="0" started-at="2020-10-14T12:14:35Z" finished-at="2020-10-14T12:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="befClass()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="befClass" is-config="true" duration-ms="0" started-at="2020-10-14T12:14:35Z" finished-at="2020-10-14T12:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befClass -->
+        <test-method status="PASS" signature="aftClass()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="aftClass" is-config="true" duration-ms="4" started-at="2020-10-14T12:14:39Z" finished-at="2020-10-14T12:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftClass -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="aftMethod" is-config="true" duration-ms="0" started-at="2020-10-14T12:14:39Z" finished-at="2020-10-14T12:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="aftTest()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="aftTest" is-config="true" duration-ms="0" started-at="2020-10-14T12:14:39Z" finished-at="2020-10-14T12:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+        <test-method status="PASS" signature="aftSuite()[pri:0, instance:seletest.com.test.Qone@17942a1]" name="aftSuite" is-config="true" duration-ms="0" started-at="2020-10-14T12:14:39Z" finished-at="2020-10-14T12:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- seletest.com.test.Qone -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
