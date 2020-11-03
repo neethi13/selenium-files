@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="179805" started-at="2020-09-14T05:57:36Z" finished-at="2020-09-14T06:00:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="179805" started-at="2020-09-14T05:57:36Z" finished-at="2020-09-14T06:00:35Z">
+      <class name="com.test.autotest.AppTest">
+        <test-method status="PASS" signature="befSuite()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="befSuite" is-config="true" duration-ms="18472" started-at="2020-09-14T11:27:17Z" finished-at="2020-09-14T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befSuite -->
+        <test-method status="PASS" signature="befTest()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="befTest" is-config="true" duration-ms="1" started-at="2020-09-14T11:27:36Z" finished-at="2020-09-14T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="befClass()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="befClass" is-config="true" duration-ms="0" started-at="2020-09-14T11:27:36Z" finished-at="2020-09-14T11:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befClass -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="befMethod" is-config="true" duration-ms="23442" started-at="2020-09-14T11:27:36Z" finished-at="2020-09-14T11:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="test1" duration-ms="152264" started-at="2020-09-14T11:27:59Z" finished-at="2020-09-14T11:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="aftMethod" is-config="true" duration-ms="4" started-at="2020-09-14T11:30:31Z" finished-at="2020-09-14T11:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="befMethod" is-config="true" duration-ms="4028" started-at="2020-09-14T11:30:31Z" finished-at="2020-09-14T11:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="test2" duration-ms="4" started-at="2020-09-14T11:30:35Z" finished-at="2020-09-14T11:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="aftMethod" is-config="true" duration-ms="1" started-at="2020-09-14T11:30:35Z" finished-at="2020-09-14T11:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="aftClass()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="aftClass" is-config="true" duration-ms="1" started-at="2020-09-14T11:30:35Z" finished-at="2020-09-14T11:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftClass -->
+        <test-method status="PASS" signature="aftTest()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="aftTest" is-config="true" duration-ms="0" started-at="2020-09-14T11:30:35Z" finished-at="2020-09-14T11:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+        <test-method status="PASS" signature="aftSuite()[pri:0, instance:com.test.autotest.AppTest@6cf0e0ba]" name="aftSuite" is-config="true" duration-ms="4017" started-at="2020-09-14T11:30:36Z" finished-at="2020-09-14T11:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- com.test.autotest.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
