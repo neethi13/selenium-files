@@ -1,0 +1,36 @@
+1. validating all elements in list using loop
+2. validate x y coordinates in java
+doubt:
+1.why we are declaring webelement
+2.clear temp not working
+3.textbox.click used second time not working
+4.iframes throwing exception the code sent is not working
+5.assert testng not working
+6.nosuch frame exception thread.sleep not allowed
+7. what is maven actually if it can be executed as java or testng or cucumber
+8. dowaload how to open them from the tray below not clickable
+9. Slider using x y coordinates and progress bar if not working use actions or javascript option scrolled view   su
+10. sortable(drag drop) demoqa list(drap and drop by source destination) and grid resizable
+11.tried with demoqa for file upload using autoid
+not able to click same error any number of trial same page dowload works worked using robot class
+12 mvnart not able to use test data filefrom resources folder workbook not found--fix
+13.nullpointer exception driver.get when launch browser is used in base class--fix
+14.safeclick?--fix
+15. when using browser settingboth in base and app 2 browsers areloaded fix
+16.cucumber console cache
+14691 [main] DEBUG freemarker.cache  - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/com/aventstack/extentreports/4.0.8/extentreports-4.0.8.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+
+1 Scenarios (1 passed)
+2 Steps (2 passed)
+0m13.060s
+
+
+17.project export option hatsun jenkins save as rar or war file and run them. 
+example for sending money transfer.
+
+
+Feature files can be created for java.
+learn sql queries
+CTRL+ALT+H
+
+18.import 
